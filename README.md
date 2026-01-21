@@ -1,11 +1,11 @@
-# 🐶 Cats vs Dogs Image Classifier (TensorFlow & Keras)
+# Cats vs Dogs Image Classifier (TensorFlow & Keras)
 
 This project implements a Convolutional Neural Network (CNN) using TensorFlow 2 and Keras to classify images of cats and dogs.  
 The model is trained using data augmentation techniques and achieves approximately **65–70% validation accuracy**.
 
 ---
 
-## 📦 Project Description
+##  Project Description
 
 This project demonstrates end-to-end image classification using a custom CNN architecture. Images are preprocessed using Keras `ImageDataGenerator`, the model is trained on labeled data, evaluated on validation data, and finally used to predict on unlabeled test images.
 
@@ -13,7 +13,7 @@ This work was completed as part of the FreeCodeCamp Machine Learning curriculum.
 
 ---
 
-## 🧠 Model Overview
+##  Model Overview
 
 The architecture consists of:
 
@@ -46,7 +46,7 @@ Test set predictions are visualized with confidence scores.
 
 ---
 
-## 🔄 Data Augmentation
+##  Data Augmentation
 
 To reduce overfitting, the following augmentations were applied:
 
@@ -59,7 +59,7 @@ To reduce overfitting, the following augmentations were applied:
 
 ---
 
-## 📊 Results
+##  Results
 
 - **Training Accuracy:** ~70%
 - **Validation Accuracy:** ~65–70%
@@ -84,7 +84,7 @@ cats-vs-dogs-cnn-classifier/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### **1. Install Requirements**
 ```bash
@@ -93,7 +93,7 @@ pip install -r requirements.txt
 
 ### **2. Open Notebook**
 ```bash
-jupyter notebook
+jupyter notebook/Colab Notebook
 ```
 
 ### **3. Train & Evaluate**
@@ -101,7 +101,7 @@ Run all cells in order.
 
 ---
 
-## 🧩 Dependencies
+##  Dependencies
 
 - TensorFlow 2.x
 - Keras
@@ -113,7 +113,7 @@ All dependencies are listed in `requirements.txt`.
 
 ---
 
-## 🎯 Future Improvements
+##  Future Improvements
 
 - Add transfer learning (MobileNetV2 / ResNet50 / EfficientNet)
 - Increase dataset size for improved generalization
@@ -122,7 +122,7 @@ All dependencies are listed in `requirements.txt`.
 
 ---
 
-## 📚 Skills Demonstrated
+##  Skills Demonstrated
 
 - Deep Learning
 - Convolutional Neural Networks
@@ -133,6 +133,6 @@ All dependencies are listed in `requirements.txt`.
 
 ---
 
-## 📜 License
+##  License
 
-This project is intended for educational and portfolio purposes.
+This project is intended for educational purposes.
